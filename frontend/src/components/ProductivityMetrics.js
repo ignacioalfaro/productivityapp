@@ -10,7 +10,7 @@ function ProductivityMetrics() {
   const [startDate, setStartDate] = useState(''); // Fecha de inicio para el filtro
   const [endDate, setEndDate] = useState(''); // Fecha de fin para el filtro
   const [selectedPersonIds, setSelectedPersonIds] = useState([]); // IDs de personas seleccionadas para el filtro
-  const [loading, setLoading] = useState(true); // Estado de carga // ¡CORREGIDO AQUÍ!
+  const [loading, setLoading] = useState(true); // Estado de carga
   const [error, setError] = useState(null); // Estado para errores
 
   // Carga inicial de personas y registros

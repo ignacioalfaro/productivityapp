@@ -51,7 +51,7 @@ function PersonManagement() {
       });
       setMessage(`Persona "${response.data.name}" agregada con éxito.`);
       setNewPersonName(''); // Limpia el campo de nombre
-      setNewPersonName(''); // Restablece el rol
+      setNewPersonRole('Employee'); // Restablece el rol
       fetchPersons(); // Vuelve a cargar la lista de personas para incluir la nueva
     } catch (err) {
       console.error("Error al agregar persona:", err);

@@ -52,10 +52,10 @@ function App() {
             <h1 className="title-app"> {/* Clase CSS personalizada */}
               ¡Bienvenido a la App de Productividad!
             </h1>
-            {/* ¡CORREGIDO! Asegúrate de que no haya un '(' extra aquí */}
-            {backendStatus.loading && 
+            {/* Asegúrate de que no haya un '(' extra aquí */}
+            {backendStatus.loading && (
               <p className="subtitle-app">Verificando conexión al backend...</p> {/* Clase CSS personalizada */}
-            }
+            )}
             {backendStatus.error && (
               <p className="text-status-error">{backendStatus.message}</p> {/* Clase CSS personalizada */}
             )}
