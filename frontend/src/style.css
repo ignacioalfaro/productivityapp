@@ -281,12 +281,7 @@ body {
     color: #4a5568; /* text-gray-600 */
 }
 
-/* Tablas */
-.table-container {
-    overflow-x-auto: auto; /* ¡CORREGIDO AQUÍ! Añadido 'auto' y ';' */
-    margin-top: 1rem; /* mt-4 */
-    margin-bottom: 1rem; /* mb-4 */
-}
+
 
 .data-table {
     min-width: 100%; /* min-w-full */
