@@ -283,7 +283,7 @@ body {
 
 /* Tablas */
 .table-container {
-    overflow-x-auto: /* overflow-x-auto */
+    overflow-x-auto: auto; /* ¡CORREGIDO AQUÍ! Añadido 'auto' y ';' */
     margin-top: 1rem; /* mt-4 */
     margin-bottom: 1rem; /* mb-4 */
 }
